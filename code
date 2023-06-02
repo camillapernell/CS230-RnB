@@ -23,7 +23,7 @@ import csv
 
 songs = []
 fieldNames = ['title', 'tag', 'artist', 'year', 'views', 'features', 'lyrics', 'id', 'language_cld3', 'language_ft', 'language']
-with open('drive/Shareddrives/CS230/song_lyrics.csv', newline='') as f:
+with open('../song_lyrics.csv', newline='') as f:
     reader = csv.DictReader(f, fieldnames = fieldNames)
     csv_headings = next(reader)
     for i in range(50):
