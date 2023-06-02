@@ -1,4 +1,4 @@
-!pip install keras_nlp
+
 import keras_nlp
 import tensorflow as tf
 from tensorflow import keras
